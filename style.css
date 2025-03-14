@@ -127,6 +127,7 @@ span {
 .home-img {
     border-radius: 50%;
     border: 2px solid #d45757;
+    margin: 5rem;
 }
 
 .home-img img {
@@ -157,7 +158,7 @@ span {
 
 /* Social Icons */
 .social-icons a {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 4rem;
@@ -169,6 +170,7 @@ span {
     margin: 1rem;
     transition: 0.3s ease;
     color: #d45757;
+
 }
 
 .social-icons a:hover {
@@ -191,6 +193,7 @@ span {
     border: 2px solid #a71717;
     transition: 0.3s ease;
     cursor: pointer;
+    margin: 1rem;
 }
 
 .btn:hover {
@@ -199,3 +202,4 @@ span {
     color: black;
     box-shadow: 0 0 25px #a71717;
 }
+
